@@ -1,0 +1,22 @@
+{
+    "name": "pshentsoff/static_vs_singleton",
+    "description": "Set of comparisons tests of usages of static classes and singleton objects.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pshentsov Vadim",
+            "email": "pshentsoff@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=7.1.13"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Pshentsoff\\StaticSingleton\\": "src"
+        }
+    }
+}
